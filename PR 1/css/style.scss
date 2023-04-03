@@ -1,0 +1,312 @@
+$white-color: #ffff;
+$black-color: #666;
+$gray-color:#efefef;
+$dark-black: #111;
+$green-color: #739900;
+$font-poppins: 'Poppins', sans-serif;;
+
+@mixin color-w{
+    columns: $white-color;
+    text-transform: capitalize;
+}
+
+.top{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: $green-color;
+    right: 20px;
+    bottom: 100px;
+    position: fixed;
+    z-index: 111;
+    display: none;
+    a{
+        color: $white-color;
+    }
+}
+
+.setting{
+    width: 30px;
+    height: 30px;
+    background-color:$green-color;
+    border-radius: 50% 50% 0 0;
+    color: $white-color;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    top: 150px;
+    right: 10px;
+}
+.switch{
+    width: 30px;
+    background-color:$dark-black;
+    border-radius: 0 0 50% 50%;
+    color:$gray-color;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    top: 180px;
+    right: 10px;
+}
+body.green{
+    background-color: $dark-black;
+}
+body.white{
+    background-color: $white-color;
+}
+body.green p{
+    color: $white-color;
+}
+body.green h2,h5,h3{
+    color: $white-color;
+}
+body.green a{
+    color: $white-color;
+}
+body.green footer{
+    background-color: $dark-black;
+}
+
+nav{
+    padding: 10px;
+    background-color: #545454;
+    .row{
+        max-width: 100%;
+        .logo{
+            img{
+                width: 50%;
+            }
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            padding: 4px 9px;
+            color: $white-color;
+            background-color: $green-color;
+        }
+    }
+}
+header{
+    padding: 10px;
+    background-color: $dark-black;
+    z-index: +999;
+    .container{
+        .row{
+            .menu{
+                ul{
+                    li{
+                        padding: 15px;
+                        a{
+                            color: $white-color;
+                            font-family: $font-poppins;
+                        }
+                        a:hover{
+                            color:$green-color;
+                            border-bottom: 2px solid $green-color;
+                        }
+                    }
+                }
+            }
+            .t-line{
+                  span{
+                    color: $white-color;
+                    padding: 15px ;
+                    font-family: $font-poppins;
+                  }
+            }
+        }
+    }
+}
+
+.banner{
+    position: relative;
+    img{
+    }
+    .banner-t{
+        width: 40%;
+        padding: 50px;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        font-family: $font-poppins;
+        color: $white-color;
+        h4{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 70px;
+        }
+        p,h3{
+            font-size: 18px;    
+        }
+        i{
+            font-size: 45px;
+            padding: 20px 20px 0 0;
+        }
+        i:hover{
+           color: $green-color;
+        }
+    }
+}
+
+.studio{
+    .container{
+        .row{
+            .studio-i{
+
+            }
+            .studio-t{
+                padding: 30px;
+                font-family: $font-poppins;
+                h2{
+                    font-size: 35px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 20px;
+                    color: $black-color;
+                    margin-bottom: 20px;
+                    font-weight: 600;
+                }
+                span{
+                    color: $black-color;
+                }
+                h4{
+                    margin:50px 0;
+                    color: $black-color;
+                }
+                h5{
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+.service{
+    font-family: $font-poppins;
+    .S-1{
+        overflow: hidden;
+        padding: 25px;
+        transition: all 0.5s;
+        img{
+            width: 20%;
+        }
+    }  
+    .S-1:hover{
+        background-color: $green-color;
+        color: $white-color;
+        transform: scale(1.1);
+    }
+}
+
+.blog{
+    .row{
+        ul{
+            p{
+                font-size:30px;
+                font-weight: 900;
+            }
+            li{
+                padding: 30px;
+                a{
+                   font-size: 18px;
+                   color: $dark-black;
+                   font-family: $font-poppins;
+                }
+                a:hover{
+                    color: $green-color;
+                    border-bottom: 1px solid $green-color;
+                }
+            }
+        }
+        .w-25{
+           
+        }
+    }
+}
+
+.blog-2{
+     padding-bottom: 70px;
+     .row{
+        max-width: 100%;
+    .w-25{
+        overflow: hidden;
+    }
+    img{
+        transition: all 1s;
+    }
+      img:hover{
+       transform: scale(1.2);
+     }
+    }
+}
+
+.about{
+    font-family: $font-poppins;
+    position: relative;
+    color: $white-color;
+    img{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .about-t{
+    top: 0;
+    left: 0;
+    padding: 90px;
+    position: absolute;
+      h3{
+        font-size: 20px;
+      }
+      h2{
+        font-size: 90px;
+      }
+      p{
+        width: 70%;
+        font-size: 18px;
+      }
+      span{
+        font-size: 20px;
+      }
+      span:hover{
+        color: $green-color;
+      }
+      i{
+        font-size: 45px;
+        padding: 30px 30px 0 0;
+    }
+    i:hover{
+       color: $green-color;
+    }
+    }
+  
+}
+
+.number{
+    font-family: $font-poppins;
+    color: $black-color;
+    font-size: 20PX;
+}
+
+footer{
+    padding: 40px;
+    font-family: $font-poppins;
+    background-color: $gray-color;
+    text-align: center;
+    color: $dark-black;
+    p{
+        line-height: 40px;
+    }
+    i{
+        padding: 10px;
+    }
+    p:hover{
+        color: $green-color;
+    }
+    i:hover{
+        color: $green-color;
+    }
+}
+    

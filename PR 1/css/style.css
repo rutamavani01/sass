@@ -1,0 +1,273 @@
+.top {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #739900;
+  right: 20px;
+  bottom: 100px;
+  position: fixed;
+  z-index: 111;
+  display: none;
+}
+.top a {
+  color: white;
+}
+
+.setting {
+  width: 30px;
+  height: 30px;
+  background-color: #739900;
+  border-radius: 50% 50% 0 0;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  position: fixed;
+  top: 150px;
+  right: 10px;
+}
+
+.switch {
+  width: 30px;
+  background-color: #111;
+  border-radius: 0 0 50% 50%;
+  color: #efefef;
+  text-align: center;
+  line-height: 30px;
+  position: fixed;
+  top: 180px;
+  right: 10px;
+}
+
+body.green {
+  background-color: #111;
+}
+
+body.white {
+  background-color: white;
+}
+
+body.green p {
+  color: white;
+}
+
+body.green h2, h5, h3 {
+  color: white;
+}
+
+body.green a {
+  color: white;
+}
+
+body.green footer {
+  background-color: #111;
+}
+
+nav {
+  padding: 10px;
+  background-color: #545454;
+}
+nav .row {
+  max-width: 100%;
+}
+nav .row .logo img {
+  width: 50%;
+}
+nav .row button {
+  border: none;
+  border-radius: 5px;
+  padding: 4px 9px;
+  color: white;
+  background-color: #739900;
+}
+
+header {
+  padding: 10px;
+  background-color: #111;
+  z-index: 999;
+}
+header .container .row .menu ul li {
+  padding: 15px;
+}
+header .container .row .menu ul li a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+header .container .row .menu ul li a:hover {
+  color: #739900;
+  border-bottom: 2px solid #739900;
+}
+header .container .row .t-line span {
+  color: white;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  position: relative;
+}
+.banner .banner-t {
+  width: 40%;
+  padding: 50px;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.banner .banner-t h4 {
+  font-size: 20px;
+}
+.banner .banner-t h2 {
+  font-size: 70px;
+}
+.banner .banner-t p, .banner .banner-t h3 {
+  font-size: 18px;
+}
+.banner .banner-t i {
+  font-size: 45px;
+  padding: 20px 20px 0 0;
+}
+.banner .banner-t i:hover {
+  color: #739900;
+}
+
+.studio .container .row .studio-t {
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.studio .container .row .studio-t h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.studio .container .row .studio-t p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.studio .container .row .studio-t span {
+  color: #666;
+}
+.studio .container .row .studio-t h4 {
+  margin: 50px 0;
+  color: #666;
+}
+.studio .container .row .studio-t h5 {
+  padding-top: 10px;
+}
+
+.service {
+  font-family: "Poppins", sans-serif;
+}
+.service .S-1 {
+  overflow: hidden;
+  padding: 25px;
+  transition: all 0.5s;
+}
+.service .S-1 img {
+  width: 20%;
+}
+.service .S-1:hover {
+  background-color: #739900;
+  color: white;
+  transform: scale(1.1);
+}
+
+.blog .row ul p {
+  font-size: 30px;
+  font-weight: 900;
+}
+.blog .row ul li {
+  padding: 30px;
+}
+.blog .row ul li a {
+  font-size: 18px;
+  color: #111;
+  font-family: "Poppins", sans-serif;
+}
+.blog .row ul li a:hover {
+  color: #739900;
+  border-bottom: 1px solid #739900;
+}
+.blog-2 {
+  padding-bottom: 70px;
+}
+.blog-2 .row {
+  max-width: 100%;
+}
+.blog-2 .row .w-25 {
+  overflow: hidden;
+}
+.blog-2 .row img {
+  transition: all 1s;
+}
+.blog-2 .row img:hover {
+  transform: scale(1.2);
+}
+
+.about {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  color: white;
+}
+.about img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .about-t {
+  top: 0;
+  left: 0;
+  padding: 90px;
+  position: absolute;
+}
+.about .about-t h3 {
+  font-size: 20px;
+}
+.about .about-t h2 {
+  font-size: 90px;
+}
+.about .about-t p {
+  width: 70%;
+  font-size: 18px;
+}
+.about .about-t span {
+  font-size: 20px;
+}
+.about .about-t span:hover {
+  color: #739900;
+}
+.about .about-t i {
+  font-size: 45px;
+  padding: 30px 30px 0 0;
+}
+.about .about-t i:hover {
+  color: #739900;
+}
+
+.number {
+  font-family: "Poppins", sans-serif;
+  color: #666;
+  font-size: 20PX;
+}
+
+footer {
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  background-color: #efefef;
+  text-align: center;
+  color: #111;
+}
+footer p {
+  line-height: 40px;
+}
+footer i {
+  padding: 10px;
+}
+footer p:hover {
+  color: #739900;
+}
+footer i:hover {
+  color: #739900;
+}/*# sourceMappingURL=style.css.map */
